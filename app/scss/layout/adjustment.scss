@@ -39,3 +39,12 @@ h6 {
 	margin: 0;
 	font-weight: normal;
 }
+
+.row {
+   margin-left: -10px;
+   margin-right: -10px;
+}
+.row > [class^="col-"], .row > [class*=" col-"] {
+   padding-left: 10px !important;
+   padding-right: 10px !important;
+}

@@ -33,6 +33,14 @@ h6 {
   margin: 0;
   font-weight: normal; }
 
+.row {
+  margin-left: -10px;
+  margin-right: -10px; }
+
+.row > [class^="col-"], .row > [class*=" col-"] {
+  padding-left: 10px !important;
+  padding-right: 10px !important; }
+
 @font-face {
   font-family: 'Roboto';
   src: url("../../fonts/roboto-black-webfont.woff") format("woff"), url("../../fonts/roboto-black-webfont.svg#robotoblack") format("svg");
@@ -304,7 +312,7 @@ h6 {
 .title__line {
   height: 2px;
   width: 50px;
-  background-color: #c6c4c9; }
+  background-color: rgba(65, 61, 75, 0.3); }
 
 .expertise__item {
   display: -ms-flexbox;
@@ -361,15 +369,96 @@ h6 {
 .expertise__item-text {
   margin: 0;
   text-align: center;
-  color: #333; }
+  color: rgba(51, 51, 51, 0.75); }
 
 .expertise__line {
   height: 1px;
   width: 100%;
   background-color: #ebebeb; }
 
+.team {
+  background-image: url("../img/content/team-bg.jpg");
+  background-size: cover; }
+
+.team__bg {
+  padding: 70px 0;
+  background-color: rgba(12, 7, 51, 0.85); }
+
+.title__block_team {
+  color: #fff; }
+  .title__block_team .title__text {
+    color: #fff; }
+  .title__block_team .title__line {
+    background-color: rgba(255, 255, 255, 0.2); }
+
+.team__item-pic {
+  width: 100%;
+  height: 230px; }
+
+.team__item-img {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.team__item-info {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  border: 1px solid #767589;
+  padding: 19px 0; }
+
+.team__item-name {
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #fff; }
+
+.team__item-specialization {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #fafafa; }
+
+.team__join {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-top: 70px; }
+
+.team__join-title {
+  margin-bottom: 25px;
+  color: #f3f3f3; }
+
+.team__join-btn {
+  height: 40px;
+  border: 1px solid #00e0d0; }
+
+.team__join-link {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 15px;
+  height: 100%;
+  width: 100%;
+  font-family: 'hammersmithoneregular';
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #00e0d0;
+  transition: .3s; }
+  .team__join-link:hover {
+    text-decoration: none; }
+
+.team__join-text {
+  margin: auto; }
+
 @media (min-width: 1200px) {
   .container {
-    max-width: 960px; } }
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px; } }
 
 /*# sourceMappingURL=maps/main.min.css.map */
