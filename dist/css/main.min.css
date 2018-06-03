@@ -607,6 +607,120 @@ h6 {
   height: 21px;
   fill: #9f9f9f; }
 
+.contact {
+  min-height: 650px;
+  padding: 70px 0;
+  background-color: #fff; }
+
+.contact__title {
+  margin-bottom: 30px;
+  font-family: 'Playfair';
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase; }
+
+.contact__list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.contact__item {
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  width: 162px;
+  height: 70px; }
+
+.contact__svg {
+  margin: auto; }
+
+.svg__zara {
+  width: 162px;
+  height: 22px; }
+
+.svg__mango {
+  width: 138px;
+  height: 22px; }
+
+.svg__barneys {
+  width: 154px;
+  height: 41px; }
+
+.svg__gucci {
+  width: 140px;
+  height: 21px; }
+
+.svg__klein {
+  width: 151px;
+  height: 24px; }
+
+.svg__nike {
+  width: 95px;
+  height: 34px; }
+
+.svg__converse {
+  width: 113px;
+  height: 69px; }
+
+.svg__puma {
+  width: 114px;
+  height: 56px; }
+
+.svg__levis {
+  width: 109px;
+  height: 53px; }
+
+.svg__billabong {
+  width: 130px;
+  height: 70px; }
+
+.form__input {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #e5e5e5;
+  outline: none; }
+
+.form__message {
+  height: 200px;
+  resize: none; }
+
+.form__input::-webkit-input-placeholder {
+  font-weight: 300;
+  color: rgba(65, 61, 75, 0.5); }
+
+.form__input::-moz-placeholder {
+  font-weight: 300;
+  color: rgba(65, 61, 75, 0.5); }
+
+.form__input:-moz-placeholder {
+  font-weight: 300;
+  color: rgba(65, 61, 75, 0.5); }
+
+.form__input:-ms-input-placeholder {
+  font-weight: 300;
+  color: rgba(65, 61, 75, 0.5); }
+
+.form__btn {
+  width: 120px;
+  height: 40px;
+  border: 1px solid #00e0d0;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer; }
+
+.form__btn-text {
+  font-family: 'hammersmithoneregular';
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #00e0d0;
+  transition: .3s; }
+  .form__btn-text:hover {
+    color: #0056b3; }
+
 @media (min-width: 1200px) {
   .container {
     max-width: 960px;
