@@ -89,6 +89,18 @@ h6 {
   font-weight: 400;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../fonts/fa-solid-900.woff") format("woff"), url("../../fonts/fa-solid-900.svg#fontawesome") format("svg"); }
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/fa-regular-400.woff") format("woff"), url("../../fonts/fa-regular-400.svg#fontawesome") format("svg"); }
+
 .header {
   min-height: 670px;
   background-image: url("../img/content/header-bg.jpg");
@@ -890,10 +902,43 @@ h6 {
 .copyright {
   text-align: right; }
 
+.scroll-btn {
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  bottom: -50px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #eee;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 100;
+  transition: .3s;
+  cursor: pointer;
+  transition: .3s;
+  color: #000;
+  opacity: .6;
+  outline: none; }
+  .scroll-btn:hover {
+    opacity: 1; }
+
+.scroll-btn__icon {
+  font-size: 30px;
+  margin: auto; }
+
+.scroll-btn__active {
+  bottom: 50px; }
+
 @media (min-width: 1200px) {
   .container {
     max-width: 960px;
     padding-right: 10px;
     padding-left: 10px; } }
+
+@media screen and (max-width: 992px) {
+  .works__item {
+    width: calc(100% / 5); } }
 
 /*# sourceMappingURL=maps/main.min.css.map */

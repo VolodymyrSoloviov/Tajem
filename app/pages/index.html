@@ -14,11 +14,11 @@
 
 <body>
   <div class="wrapper">
-    <header class="header">
+    <header class="header" id="home">
       <div class="header__bg">
         <div class="container">
           <nav class="navbar">
-            <a href="#" class="navbar-brand">
+            <a href="index.html" class="navbar-brand">
               <div class="navbar__pic">
                 <svg class="svg-logo">
                   <use xlink:href="img/sprite.svg#logo"></use>
@@ -28,31 +28,31 @@
             </a>
             <ul class="nav__list">
               <li class="nav__item">
-                <a href="#" class="nav__link nav__link_active">home</a>
+                <a href="javascript:void(0)" onclick="slowScroll('#home')" class="nav__link nav__link_active">home</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">about</a>
+                <a href="javascript:void(0)" onclick="slowScroll('#about')" class="nav__link">about</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">expertise</a>
+                <a href="javascript:void(0)" onclick="slowScroll('#expertise')" class="nav__link">expertise</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">teams</a>
+                <a href="javascript:void(0)" onclick="slowScroll('#team')" class="nav__link">team</a>
               </li>
               <li class="nav__item">
-              <a href="#" class="nav__link">works</a>
+                <a href="javascript:void(0)" onclick="slowScroll('#works')" class="nav__link">works</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">people say</a>
+                <a href="javascript:void(0)" onclick="slowScroll('#testimonials')" class="nav__link">people say</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">contact</a>
+                <a href="javascript:void(0)" onclick="slowScroll('#contact')" class="nav__link">contact</a>
               </li>
             </ul> <!-- end nav__list -->
           </nav> <!-- end navbar -->
           <ul class="header__carousel owl-carousel">
             <li class="row justify-content-center">
-              <div class="col-xl-10 d-flex flex-column align-items-center">
+              <div class="col-lg-10 d-flex flex-column align-items-center">
                 <h2 class="header__carousel-title">We Are Awesome Creative Agency</h2>
                 <div class="header__carousel-line"></div>
                 <div class="header__carousel-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</div>
@@ -66,7 +66,7 @@
               </div>
             </li>
             <li class="row justify-content-center">
-              <div class="col-xl-10 d-flex flex-column align-items-center">
+              <div class="col-lg-10 d-flex flex-column align-items-center">
                 <h2 class="header__carousel-title">We Are Awesome Creative Agency</h2>
                 <div class="header__carousel-line"></div>
                 <div class="header__carousel-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</div>
@@ -80,7 +80,7 @@
               </div>
             </li>
             <li class="row justify-content-center">
-              <div class="col-xl-10 d-flex flex-column align-items-center">
+              <div class="col-lg-10 d-flex flex-column align-items-center">
                 <h2 class="header__carousel-title">We Are Awesome Creative Agency</h2>
                 <div class="header__carousel-line"></div>
                 <div class="header__carousel-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</div>
@@ -94,7 +94,7 @@
               </div>
             </li>
             <li class="row justify-content-center">
-              <div class="col-xl-10 d-flex flex-column align-items-center">
+              <div class="col-lg-10 d-flex flex-column align-items-center">
                 <h2 class="header__carousel-title">We Are Awesome Creative Agency</h2>
                 <div class="header__carousel-line"></div>
                 <div class="header__carousel-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</div>
@@ -111,16 +111,16 @@
         </div> <!-- end container -->
       </div> <!-- end header-bg -->
     </header> <!-- end header -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="about__top">
         <div class="container">
           <div class="row">
-            <div class="col-xl-5">
+            <div class="col-lg-5">
               <div class="about__top-left">
                 <img src="../img/content/big-logo.png" alt="" class="about__logo">
               </div>
             </div>
-            <div class="col-xl-7">
+            <div class="col-lg-7">
               <div class="about__top-right">
                 <h2 class="title">Our story</h2>
                 <div class="about__text-wrap">
@@ -150,7 +150,7 @@
         </div>
       </div> <!-- end about__bottom -->
     </section> <!-- end about -->
-    <section class="expertise">
+    <section class="expertise" id="expertise">
       <div class="container">
         <div class="title__block">
           <h2 class="title">Expertise</h2>
@@ -158,7 +158,7 @@
           <div class="title__line"></div>
         </div>
         <div class="row">
-          <div class="col-xl-4 d-flex justify-content-center">
+          <div class="col-lg-4 d-flex justify-content-center">
             <div class="expertise__item">
               <div class="expertise__item-pic">
                 <svg class="expertise__svg svg__tv">
@@ -169,7 +169,7 @@
               <p class="expertise__item-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
             </div>
           </div> <!-- end col-ITEM -->
-          <div class="col-xl-4 d-flex justify-content-center">
+          <div class="col-lg-4 d-flex justify-content-center">
             <div class="expertise__item">
               <div class="expertise__item-pic">
                 <svg class="expertise__svg svg__paint">
@@ -180,7 +180,7 @@
               <p class="expertise__item-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
             </div>
           </div> <!-- end col-ITEM -->
-          <div class="col-xl-4 d-flex justify-content-center">
+          <div class="col-lg-4 d-flex justify-content-center">
             <div class="expertise__item">
               <div class="expertise__item-pic">
                 <svg class="expertise__svg svg__phone">
@@ -192,7 +192,7 @@
             </div>
           </div> <!-- end col-ITEM -->
           <div class="expertise__line"></div>
-          <div class="col-xl-4 d-flex justify-content-center">
+          <div class="col-lg-4 d-flex justify-content-center">
             <div class="expertise__item">
               <div class="expertise__item-pic">
                 <svg class="expertise__svg svg__optimization">
@@ -203,7 +203,7 @@
               <p class="expertise__item-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
             </div>
           </div> <!-- end col-ITEM -->
-          <div class="col-xl-4 d-flex justify-content-center">
+          <div class="col-lg-4 d-flex justify-content-center">
             <div class="expertise__item">
               <div class="expertise__item-pic">
                 <svg class="expertise__svg svg__game">
@@ -214,7 +214,7 @@
               <p class="expertise__item-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
             </div>
           </div> <!-- end col-ITEM -->
-          <div class="col-xl-4 d-flex justify-content-center">
+          <div class="col-lg-4 d-flex justify-content-center">
             <div class="expertise__item">
               <div class="expertise__item-pic">
                 <svg class="expertise__svg svg__love">
@@ -228,16 +228,16 @@
         </div> <!-- end row -->
       </div> <!-- end container -->
     </section> <!-- end expertise -->
-    <section class="team">
+    <section class="team" id="team">
       <div class="team__bg">
         <div class="container">
           <div class="title__block title__block_team">
-            <h2 class="title">Expertise</h2>
+            <h2 class="title">Meet our amazing team</h2>
             <div class="title__text">Lorem ipsum dolor sit amet proin gravida nibh vel velit</div>
             <div class="title__line"></div>
           </div>
           <div class="row">
-            <div class="col-xl-3">
+            <div class="col-lg-3">
               <div class="team__item">
                 <div class="team__item-pic">
                   <img src="../img/content/1.jpg" alt="" class="team__item-img">
@@ -248,7 +248,7 @@
                 </div>
               </div>
             </div> <!-- end col ITEM -->
-            <div class="col-xl-3">
+            <div class="col-lg-3">
               <div class="team__item">
                 <div class="team__item-pic">
                   <img src="../img/content/3.jpg" alt="" class="team__item-img">
@@ -259,7 +259,7 @@
                 </div>
               </div>
             </div> <!-- end col ITEM -->
-            <div class="col-xl-3">
+            <div class="col-lg-3">
               <div class="team__item">
                 <div class="team__item-pic">
                   <img src="../img/content/2.jpg" alt="" class="team__item-img">
@@ -270,7 +270,7 @@
                 </div>
               </div>
             </div> <!-- end col ITEM -->
-            <div class="col-xl-3">
+            <div class="col-lg-3">
               <div class="team__item">
                 <div class="team__item-pic">
                   <img src="../img/content/4.jpg" alt="" class="team__item-img">
@@ -293,7 +293,7 @@
         </div> <!-- end container -->
       </div> <!-- end team__bg -->
     </section> <!-- end team -->
-    <section class="works">
+    <section class="works" id="works">
       <div class="container">
         <div class="works__top">
           <div class="works__title">Our works</div>
@@ -379,11 +379,11 @@
         </div>
       </div>
     </section> <!-- end works -->
-    <section class="testimonials">
+    <section class="testimonials" id="testimonials">
       <div class="testimonials__bg">
         <div class="container">
           <div class="row d-flex justify-content-center">
-            <div class="col-xl-10">
+            <div class="col-lg-10">
               <ul class="testimonials__carousel">
                 <li class="testimonials__carousel-item">
                   <div class="testimonials__carousel-pic">
@@ -456,7 +456,7 @@
                 </svg>
               </div>
             </div>
-            <div class="col-xl-4">
+            <div class="col-lg-4">
               <ul class="testimonials__carousel2">
                 <li class="testimonials__carousel2-item">
                   <img src="../img/content/17.jpg" alt="" class="testimonials__carousel2-img">
@@ -489,10 +489,10 @@
         </div> <!-- end container -->
       </div> <!-- end testimonials__bg -->
     </section> <!--testimonials-->
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container">
         <div class="row d-flex justify-content-between">
-          <div class="col-xl-6">
+          <div class="col-lg-6">
             <div class="contact__left">
               <div class="contact__title">Give us a good news</div>
               <form action="" class="form" method="post" name="form">
@@ -506,7 +506,7 @@
               </form>
             </div>
           </div>
-          <div class="col-xl-5">
+          <div class="col-lg-5">
             <div class="contact__right">
               <div class="contact__title">Our happy client</div>
               <ul class="contact__list">
@@ -570,9 +570,9 @@
       <div class="footer__bg">
         <div class="container">
           <div class="row">
-            <div class="col-xl-4">
+            <div class="col-lg-4">
               <div class="footer__logo">
-                <a href="#" class="navbar-brand">
+                <a href="index.html" class="navbar-brand">
                   <div class="navbar__pic">
                     <svg class="svg-logo">
                       <use xlink:href="img/sprite.svg#logo"></use>
@@ -594,7 +594,7 @@
                 </li>
               </ul>
             </div> <!-- end col -->
-            <div class="col-xl-4">
+            <div class="col-lg-4">
               <h3 class="footer__title">Our studio</h3>
               <address class="footer__address">
                 <div class="footer__address-top">
@@ -615,7 +615,7 @@
                 </div>
               </address>
             </div> <!-- end col -->
-            <div class="col-xl-4">
+            <div class="col-lg-4">
               <h3 class="footer__title">Stay in touch</h3>
               <form action="" method="post" name="subscribe" class="subscribe">
                 <input type="email" name="email" class="subscribe__input" placeholder="Subscribe our newsletter" required>
@@ -678,6 +678,10 @@
       </div> <!-- end footer__bg -->
     </footer> <!-- end footer -->
   </div> <!-- end wrapper -->
+
+  <div class="scroll-btn">
+    <i class="fas fa-angle-up scroll-btn__icon"></i>
+  </div>
 
   <script src="js/vendor.min.js"></script>
   <script src="js/main.min.js"></script>

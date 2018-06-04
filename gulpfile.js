@@ -28,6 +28,8 @@ const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'developm
 var moduleJs = [
   'app/js/header-carousel.js', 
   'app/js/testimonials-carousel.js',
+  'app/js/scroll-btn.js',
+  'app/js/smooth-scrolling.js',
   ];
 // Пути к нашим внешним плагинам и библиотекам javascript
 var vendorJs = [
@@ -42,6 +44,7 @@ var vendorCss = [
   'node_modules/bootstrap/dist/css/bootstrap.min.css',
   'app/bower/owl.carousel/dist/assets/owl.carousel.min.css',
   'app/bower/slick-carousel/slick/slick.css',
+  'app/scss/layout/fontawesome-all.css',
   ];
 
 // Запускаем сервер. Предварительно выполнив задачи ['html', 'styles', 'images',
