@@ -1,4 +1,31 @@
 // Medium devices (tablets)
 @media screen and (max-width: 768px) {
-	
+
+	.nav__list {
+		display: none;
+	}
+
+	#menu-icon {
+		display: block;
+	}
+
+	.header__carousel {
+		margin-top: 100px;
+	}
+
+	.about__top {
+		padding: 70px 0;
+	}
+
+	.expertise__line {
+		display: none;
+	}
+
+	.works__item {
+    width: calc(100% / 3);
+	}
+
+	.contact__left {
+		margin-bottom: 40px;
+	}
 }

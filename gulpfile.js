@@ -30,6 +30,7 @@ var moduleJs = [
   'app/js/testimonials-carousel.js',
   'app/js/scroll-btn.js',
   'app/js/smooth-scrolling.js',
+  'app/js/mobile-menu.js',
   ];
 // Пути к нашим внешним плагинам и библиотекам javascript
 var vendorJs = [

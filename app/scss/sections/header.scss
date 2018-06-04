@@ -1,12 +1,12 @@
 .header {
-	min-height: 670px;
+	//min-height: 670px;
 	background-image: url("../img/content/header-bg.jpg");
 	background-size: cover;
 }
 
 .header__bg {
 	width: 100%;
-	min-height: 670px;
+	padding-bottom: 65px;
 	background-color: rgba(#2d1b59, .85);
 }
 
