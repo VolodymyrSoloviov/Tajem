@@ -995,4 +995,47 @@ h6 {
   .contact__left {
     margin-bottom: 40px; } }
 
+@media screen and (max-width: 576px) {
+  .header__carousel-title {
+    text-align: center; }
+  .about__top-left {
+    margin-bottom: 40px; }
+  .about__top-right {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center; }
+  .about__text-wrap {
+    text-align: justify; }
+  .title__text {
+    text-align: center; }
+  .expertise__item {
+    padding: 20px 0; }
+  .team__list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; }
+  .works__top {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .works__item {
+    width: calc(100% / 2); }
+  .footer__block {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center; }
+  .footer__text {
+    text-align: justify; }
+  .footer__links-list {
+    width: 100%; }
+  .footer__links-list {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; } }
+
 /*# sourceMappingURL=maps/main.min.css.map */

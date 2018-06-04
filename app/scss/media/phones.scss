@@ -1,4 +1,59 @@
 // Small devices (landscape phones)
 @media screen and (max-width: 576px) {
-	
+	.header__carousel-title {
+		text-align: center;
+	}
+
+	.about__top-left {
+		margin-bottom: 40px;
+	}
+
+	.about__top-right {
+		display: flex;
+    flex-direction: column;
+    align-items: center;
+	}
+
+	.about__text-wrap {
+		text-align: justify;
+	}
+
+	.title__text {
+		text-align: center;
+	}
+
+	.expertise__item {
+		padding: 20px 0;
+	}
+
+	.team__list {
+		display: flex;
+		justify-content: center;
+	}
+
+	.works__top {
+		flex-wrap: wrap;
+	}
+
+	.works__item {
+    width: calc(100% / 2);
+	}
+
+	.footer__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__text {
+  	text-align: justify;
+  }
+
+  .footer__links-list {
+  	width: 100%;
+  }
+
+  .footer__links-list {
+  	justify-content: space-around;
+  }
 }
