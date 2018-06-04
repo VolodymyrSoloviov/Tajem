@@ -806,12 +806,11 @@ h6 {
 .subscribe {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
   margin-bottom: 25px; }
 
 .subscribe__input {
   width: 210px;
+  margin-right: 17px;
   padding: 12px 15px;
   border: 1px solid #9d97b0;
   background-color: transparent;
@@ -939,6 +938,18 @@ h6 {
 
 @media screen and (max-width: 992px) {
   .works__item {
-    width: calc(100% / 5); } }
+    width: calc(100% / 4); }
+  .team__item-wrap {
+    margin-bottom: 20px; }
+  .team__join {
+    margin-top: 50px; }
+  .scroll-btn {
+    right: 20px; }
+  .scroll-btn__active {
+    bottom: 20px; }
+  .footer__block {
+    margin-bottom: 20px; }
+  .copyright {
+    text-align: left; } }
 
 /*# sourceMappingURL=maps/main.min.css.map */

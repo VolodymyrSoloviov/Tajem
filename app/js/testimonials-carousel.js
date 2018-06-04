@@ -12,6 +12,14 @@
     slidesToScroll: 1,
     asNavFor: '.testimonials__carousel',
     arrows: false,
+    responsive: [
+    {
+      breakpoint: 992,
+        settings: {
+          slidesToShow: 4,
+        }
+      },
+    ]
   });
 
   $('.testimonials__carousel2-prev').click(function(){

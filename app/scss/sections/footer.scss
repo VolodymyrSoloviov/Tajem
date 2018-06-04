@@ -86,12 +86,13 @@
 
 .subscribe {
 	display: flex;
-	justify-content: space-between;
+	//justify-content: space-between;
 	margin-bottom: 25px;
 }
 
 .subscribe__input {
 	width: 210px;
+	margin-right: 17px;
 	padding: 12px 15px;
 	border: 1px solid #9d97b0;
 	background-color: transparent;
